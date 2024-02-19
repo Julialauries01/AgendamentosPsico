@@ -20,7 +20,7 @@ router.push(`/barbershops/${barbershop.id}`)
    }
 
    return ( 
-      <Card className="min-w-full max-w-full rounded-2xl">
+      <Card className="min-w-full  max-w-full rounded-2xl">
 
       <CardContent className="px-1 py-0 pt-1">
         <div className="w-full h-[159px] relative">

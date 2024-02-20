@@ -131,7 +131,7 @@ interface BookingItemProps{
       
 
                <div className="flex justify-between">
-                   <h3 className="text-gray-400"> Barbearia </h3> 
+                   <h3 className="text-gray-100">Tipo</h3> 
                    <h4 className="text-sm capitalize">{booking.barbershop.name}</h4> 
                </div>
 

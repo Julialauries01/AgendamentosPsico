@@ -23,11 +23,11 @@ async function seedDatabase() {
 
     // Endereços fictícios para as barbearias
     const addresses = [
-      "",
-      "",
-      "",
-      "",
-      "",
+      "Rua Arthur Ramos, 369",
+      "Rua Arthur Ramos, 369",
+      "Rua Arthur Ramos, 369",
+      "Rua Arthur Ramos, 369",
+      "Rua Arthur Ramos, 369",
     ];
 
     const services = [

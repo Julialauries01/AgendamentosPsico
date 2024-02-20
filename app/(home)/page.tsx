@@ -39,7 +39,7 @@ export default async function Home() {
 
       <div className="px-5 pt-5">
         <h2 className="text-xl font-bold">
-          {session?.user ? `Olá, ${session.user.name?.split(" ")[0]}!` : "Olá! Vamos agendar um corte hoje?"}
+          {session?.user ? `Olá, ${session.user.name?.split(" ")[0]}!` : "Olá! Vamos agendar uma consulta hoje?"}
         </h2>
         <p className="capitalize text-sm">
           {format(new Date(), "EEEE',' dd 'de' MMMM", {
@@ -68,10 +68,10 @@ export default async function Home() {
         )}
       </div>
 
-      <div className="mt-6">
+      <div className="mt-8">
         <h2 className="px-5 text-xs mb-3 uppercase text-gray-400 font-bold">Recomendados</h2>
 
-        <div className="flex px-5 gap-4 mb-3 grid grid-cols-2 overflow-x-auto [&::-webkit-scrollbar]:hidden">
+        <div className="flex px-5 gap-4 mb-3 overflow-x-auto [&::-webkit-scrollbar]:hidden">
           {barbershops.map((barbershop) => (
             <div key={barbershop.id} className="min-w-[167px] max-w-[167px]">
               <BarbershopItem key={barbershop.id} barbershop={barbershop} />

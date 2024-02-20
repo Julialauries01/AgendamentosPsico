@@ -53,8 +53,8 @@ const Search = ({ defaultValues }: SearchProps) => {
             )}
           />
 
-          <Button variant="default" type="submit">
-            <SearchIcon size={20} />
+          <Button variant="default" type="submit" >
+            <SearchIcon size={20}/>
           </Button>
         </form>
       </Form>

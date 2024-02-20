@@ -15,7 +15,7 @@ async function seedDatabase() {
     // Nomes criativos para as barbearias
     const creativeNames = [
       "Avaliação",
-      "Atendimento individual",
+      "Atend. individual",
       "Terapia em grupo",
       "Terapia familiar",
 

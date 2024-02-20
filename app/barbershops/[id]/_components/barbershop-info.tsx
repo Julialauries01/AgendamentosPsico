@@ -56,11 +56,11 @@ const BarbershopInfo = ({ barbershop }: BarbershopInfoProps ) => {
       <div className="px-5 pt-3 pb-6 border-b border-solid boder-secondary">
          <h1 className="text-xl font-bold py-3" >{barbershop.name}</h1>
       <div className="flex items-center gap-2">
-         <Gem className="text-primary" size={18}></Gem>
-      <p className="text-sm">{barbershop.address} </p>
+         <Gem className="text-blue-300 border-none" size={18}></Gem>
+      <p className="text-sm">Psicologia Clinica </p>
       </div>
       <div className="flex items-center gap-2 mt-2">
-         <StarIcon className="text-primary" size={18}></StarIcon>
+         <StarIcon className="text-blue-300 border-none" size={18}></StarIcon>
       <p className="text-sm">5,0 (899 avaliações) </p>
       </div>
       </div> 

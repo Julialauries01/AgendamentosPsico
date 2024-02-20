@@ -156,7 +156,7 @@ const ServiceItem = ({
             <p className="text-sm">{service.description}</p>
 
             <div className="flex items-center justify-between mt-3">
-              <p className="text-primary font-bold">
+              <p className="text-blue-300 font-bold">
                 {Intl.NumberFormat("pt-BR", {
                   style: "currency",
                   currency: "BRL",
@@ -227,7 +227,7 @@ const ServiceItem = ({
                       <CardContent className="p-3 gap-3 flex flex-col">
                         <div className="flex justify-between">
                           <h2 className="font-bold">{service.name}</h2>
-                          <h3 className="font-bold text-sm">
+                          <h3 className="">
                             {Intl.NumberFormat("pt-BR", {
                               style: "currency",
                               currency: "BRL",
